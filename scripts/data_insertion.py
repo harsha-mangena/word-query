@@ -1,4 +1,6 @@
+from datetime import timezone
 import json
+from models import Word
 from pymongo import MongoClient
 from multiprocessing import Pool, cpu_count
 
@@ -53,6 +55,21 @@ def insert_into_mongo(processed_data):
         result = collection.insert_many(processed_data)
         print(f"Inserted {len(result.inserted_ids)} documents.")
 
+def save_to_django(processed_chunk):
+    objects_to_create = []
+    for word, processed_definitions in processed_chunk:
+        objects_to_create.append(
+            Word(
+                word=word,
+                definitions=processed_definitions, 
+                # ... set other fields like 'count', 'is_popular_now', etc. ...
+                popularity_updated_at=timezone.now()
+            )
+        )
+
+    # Bulk creation for efficiency
+    Word.objects.bulk_create(objects_to_create)
+
 
 with open(PATH, 'r') as file:
     data = json.load(file)
@@ -74,7 +91,12 @@ if __name__ == '__main__':
     pool = Pool(processes=num_chunks)
     processed_chunks = pool.map(process_data_chunk, data_chunks)
 
-    for processed_data in processed_chunks:
-        insert_into_mongo(processed_data)
+    with Pool(processes=num_chunks) as pool: 
+        processed_chunks = pool.map(process_data_chunk, data_chunks)
+
+        for processed_data in processed_chunks:
+            save_to_django(processed_data) 
+
+    print("Data insertion completed.")
 
     print("Data insertion completed.")
