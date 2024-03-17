@@ -4,6 +4,7 @@ import json
 from pymongo import MongoClient
 from django.utils import timezone
 import sys
+from django.db import transaction
 
 # Setup Django environment
 sys.path.append('/Users/hmangina/Work/word-query')
@@ -24,29 +25,28 @@ def process_entry(word, definitions):
     """Process a single dictionary entry into a format suitable for MongoDB and Django."""
     processed_definitions = [
         {
-            'part_of_speech': definition["part_of_speech"].strip('\"'),
-            'definition': definition["definition"].strip('\"')
-        }
-        for definition in definitions
+            'part_of_speech': definition["part_of_speech"].strip('\"').replace('\\', '').replace('//', ''),
+            'definition': definition["definition"].strip('\"').replace('\\', '').replace('//', ''),
+        } for definition in definitions
     ]
     return {
-        'word': word,
-        'definitions': processed_definitions
+        'word': word.strip('\"').replace('\\', '').replace('//', ''),
+        'definitions': processed_definitions,
     }
+
+@transaction.atomic
 def save_to_django(processed_data):
-    i = 0
-    for entry in processed_data:
-        i += 1
-        print(f'{i} Done'.format(i))
+    for i, entry in enumerate(processed_data, start=1):
         definitions_str = json.dumps(entry['definitions'])
-        word_instance = Word(
-            word=entry['word'].replace('\\', '').replace('//',''),
-            definition=definitions_str.replace('\\', '').replace('//','') ,
+        Word.objects.create(
+            word=entry['word'],
+            definition=definitions_str,
+            # Assume these fields exist in your model; adjust as necessary
             count=0,
             popularity_updated_at=timezone.now()
         )
-        word_instance.save()
-
+        if i % 100 == 0:
+            print(f'{i} entries processed')
 
 if __name__ == '__main__':
     # Load JSON data
