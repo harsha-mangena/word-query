@@ -14,6 +14,8 @@ def get_random_word_for_day(request):
         return Response({'error': 'No words available'}, status=404)
     random_index = random.randint(0, count - 1)
     random_word = Word.objects.all()[random_index]
+    random_word.count += 1
+    random_word.save()
     serializer = WordSerializer(random_word)
     return Response(serializer.data)
 

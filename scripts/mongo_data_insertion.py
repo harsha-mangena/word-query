@@ -37,10 +37,9 @@ def process_entry(word, definitions):
 @transaction.atomic
 def save_to_django(processed_data):
     for i, entry in enumerate(processed_data, start=1):
-        definitions_str = json.dumps(entry['definitions'])
         Word.objects.create(
             word=entry['word'],
-            definition=definitions_str,
+            definition=entry['definitions'],
             # Assume these fields exist in your model; adjust as necessary
             count=0,
             popularity_updated_at=timezone.now()
