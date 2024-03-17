@@ -6,16 +6,26 @@ from django.db.models import Q
 from .serializer import WordSerializer
 from .models import Word
 import random
+from django.core.cache import cache
 
 @api_view(['GET'])
 def get_random_word_for_day(request):
-    count = Word.objects.count()
-    if count == 0:
-        return Response({'error': 'No words available'}, status=404)
-    random_index = random.randint(0, count - 1)
-    random_word = Word.objects.all()[random_index]
-    random_word.count += 1
-    random_word.save()
+    word_of_the_day = cache.get('word_of_the_day')
+
+    if not word_of_the_day:
+        count = Word.objects.count()
+        if count == 0:
+            return Response({'error': 'No words available'}, status=404)
+
+        random_index = random.randint(0, count - 1)
+        random_word = Word.objects.all()[random_index]
+        random_word.count += 1
+        random_word.save()
+        cache.set('word_of_the_day', random_word, timeout=86400)
+
+    else:
+        random_word = word_of_the_day
+
     serializer = WordSerializer(random_word)
     return Response(serializer.data)
 
