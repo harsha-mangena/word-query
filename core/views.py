@@ -39,6 +39,7 @@ def search_words(request):
 
     if search_type in ['word', 'both']:
         query_set = query_set.filter(word__icontains=search_term)
+        
     if search_type in ['definition', 'both']:
         query_set = query_set.filter(definition__icontains=search_term)
 

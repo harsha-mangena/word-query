@@ -6,7 +6,6 @@ from django.utils import timezone
 import sys
 from django.db import transaction
 
-# Setup Django environment
 sys.path.append('/Users/hmangina/Work/word-query')
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wordquery.settings')
 django.setup()
@@ -40,7 +39,6 @@ def save_to_django(processed_data):
         Word.objects.create(
             word=entry['word'],
             definition=entry['definitions'],
-            # Assume these fields exist in your model; adjust as necessary
             count=0,
             popularity_updated_at=timezone.now()
         )
