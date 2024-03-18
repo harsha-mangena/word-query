@@ -1,8 +1,9 @@
-from django.http import JsonResponse
 from django.shortcuts import render
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, renderer_classes
 from rest_framework.response import Response
-from django.db.models import Q
+from rest_framework.renderers import JSONRenderer
+
+from utils import get_word_query_set
 from .serializer import WordSerializer
 from .models import Word
 import random
@@ -19,31 +20,23 @@ def get_random_word_for_day(request):
 
         random_index = random.randint(0, count - 1)
         random_word = Word.objects.all()[random_index]
-        random_word.count += 1
-        random_word.save()
+        random_word.count += 1  
+        random_word.save(update_fields=['count'])
         cache.set('word_of_the_day', random_word, timeout=86400)
-
     else:
-        random_word = word_of_the_day
+        random_word = Word.objects.get(id=word_of_the_day.id)  # Ensure we have the latest instance
 
     serializer = WordSerializer(random_word)
     return Response(serializer.data)
 
 @api_view(['GET'])
 def search_words(request):
-    search_term = request.GET.get('q', '')
-    search_type = request.GET.get('type', 'both')
-    sort_order = '-' if request.GET.get('sort', '1') == '-1' else ''
+    serialized_data = get_word_query_set(request)
+    return Response(serialized_data.data)
 
-    query_set = Word.objects.all()
-
-    if search_type in ['word', 'both']:
-        query_set = query_set.filter(word__icontains=search_term)
-        
-    if search_type in ['definition', 'both']:
-        query_set = query_set.filter(definition__icontains=search_term)
-
-    results = query_set.order_by(f"{sort_order}word")[:50]
-
-    serializer = WordSerializer(results, many=True)
-    return Response(serializer.data)
+@api_view(['GET'])
+@renderer_classes([JSONRenderer])
+def get_searched_words(request):
+    serialized_data = get_word_query_set(request)
+    return Response(serialized_data.data)
+    
