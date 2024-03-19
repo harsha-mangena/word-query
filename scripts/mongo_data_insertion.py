@@ -20,8 +20,10 @@ collection = db['word']
 # Path to your JSON file
 PATH = '/Users/hmangina/Desktop/dictionary_converted.json'
 
+
 def process_entry(word, definitions):
     """Process a single dictionary entry into a format suitable for MongoDB and Django."""
+    prsd_word = word.strip('\"').replace('\\', '').replace('//', '').replace("'", '')
     processed_definitions = [
         {
             'part_of_speech': definition["part_of_speech"].strip('\"').replace('\\', '').replace('//', ''),
@@ -29,21 +31,25 @@ def process_entry(word, definitions):
         } for definition in definitions
     ]
     return {
-        'word': word.strip('\"').replace('\\', '').replace('//', ''),
+        'word': prsd_word,
         'definitions': processed_definitions,
+        'length': len(prsd_word)
     }
+
 
 @transaction.atomic
 def save_to_django(processed_data):
     for i, entry in enumerate(processed_data, start=1):
-        Word.objects.create(
+        Word.objects.update_or_create(
             word=entry['word'],
             definition=entry['definitions'],
             count=0,
+            length=entry['length'],
             popularity_updated_at=timezone.now()
         )
         if i % 100 == 0:
             print(f'{i} entries processed')
+
 
 if __name__ == '__main__':
     # Load JSON data

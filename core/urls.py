@@ -5,7 +5,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('words/random', views.get_random_word_for_day, name='random_word'),
-    path('words/search', views.search_words, name='search_words'),
-    path('api/words', views.search_words, name='api_search_words'),
+    path('word/random', views.get_random_word_api, name='random_word'),
+    path('word/day', views.get_word_for_day, name='search_words'),
+    path('word/search', views.get_searched_words_api, name='api_search_words'),
+    path('word/length', views.get_words_by_length_api, name='words_by_length')
 ]
