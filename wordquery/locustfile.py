@@ -2,12 +2,8 @@ from locust import HttpUser, task, between
 
 
 class WordApiUser(HttpUser):
-<<<<<<< HEAD
     host = 'http://127.0.0.1:8000'
     wait_time = between(1, 2)
-=======
-    wait_time = between(1, 2)  # Wait between 1 and 2 seconds between tasks
->>>>>>> origin/main
 
     @task
     def get_random_word(self):
