@@ -1,0 +1,797 @@
+[2024-03-21 05:56:29 -0400] [61843] [INFO] Starting gunicorn 21.2.0
+[2024-03-21 05:56:29 -0400] [61843] [INFO] Listening at: http://0.0.0.0:7979 (61843)
+[2024-03-21 05:56:29 -0400] [61843] [INFO] Using worker: sync
+[2024-03-21 05:56:29 -0400] [61844] [INFO] Booting worker with pid: 61844
+[2024-03-21 05:56:29 -0400] [61845] [INFO] Booting worker with pid: 61845
+[2024-03-21 05:56:29 -0400] [61846] [INFO] Booting worker with pid: 61846
+[2024-03-21 05:56:29 -0400] [61847] [INFO] Booting worker with pid: 61847
+[2024-03-21 05:56:29 -0400] [61848] [INFO] Booting worker with pid: 61848
+[2024-03-21 05:56:29 -0400] [61849] [INFO] Booting worker with pid: 61849
+[2024-03-21 05:56:29 -0400] [61850] [INFO] Booting worker with pid: 61850
+[2024-03-21 05:56:29 -0400] [61852] [INFO] Booting worker with pid: 61852
+[2024-03-21 05:56:29 -0400] [61854] [INFO] Booting worker with pid: 61854
+[2024-03-21 05:56:29 -0400] [61855] [INFO] Booting worker with pid: 61855
+[2024-03-21 05:56:29 -0400] [61856] [INFO] Booting worker with pid: 61856
+[2024-03-21 05:56:29 -0400] [61857] [INFO] Booting worker with pid: 61857
+[2024-03-21 05:56:29 -0400] [61858] [INFO] Booting worker with pid: 61858
+[2024-03-21 05:56:29 -0400] [61859] [INFO] Booting worker with pid: 61859
+[2024-03-21 05:56:29 -0400] [61860] [INFO] Booting worker with pid: 61860
+[2024-03-21 05:56:29 -0400] [61861] [INFO] Booting worker with pid: 61861
+[2024-03-21 05:56:29 -0400] [61862] [INFO] Booting worker with pid: 61862
+[2024-03-21 05:56:44 -0400] [61843] [INFO] Handling signal: int
+[2024-03-21 09:56:44 +0000] [61846] [INFO] Worker exiting (pid: 61846)
+[2024-03-21 09:56:44 +0000] [61844] [INFO] Worker exiting (pid: 61844)
+[2024-03-21 09:56:44 +0000] [61850] [INFO] Worker exiting (pid: 61850)
+[2024-03-21 09:56:44 +0000] [61856] [INFO] Worker exiting (pid: 61856)
+[2024-03-21 09:56:44 +0000] [61854] [INFO] Worker exiting (pid: 61854)
+[2024-03-21 09:56:44 +0000] [61845] [INFO] Worker exiting (pid: 61845)
+[2024-03-21 09:56:44 +0000] [61847] [INFO] Worker exiting (pid: 61847)
+[2024-03-21 09:56:44 +0000] [61852] [INFO] Worker exiting (pid: 61852)
+[2024-03-21 09:56:44 +0000] [61861] [INFO] Worker exiting (pid: 61861)
+[2024-03-21 09:56:44 +0000] [61848] [INFO] Worker exiting (pid: 61848)
+[2024-03-21 09:56:44 +0000] [61860] [INFO] Worker exiting (pid: 61860)
+[2024-03-21 09:56:44 +0000] [61849] [INFO] Worker exiting (pid: 61849)
+[2024-03-21 09:56:44 +0000] [61858] [INFO] Worker exiting (pid: 61858)
+[2024-03-21 09:56:44 +0000] [61862] [INFO] Worker exiting (pid: 61862)
+[2024-03-21 09:56:44 +0000] [61859] [INFO] Worker exiting (pid: 61859)
+[2024-03-21 09:56:44 +0000] [61855] [INFO] Worker exiting (pid: 61855)
+[2024-03-21 09:56:44 +0000] [61857] [INFO] Worker exiting (pid: 61857)
+[2024-03-21 05:56:44 -0400] [61843] [INFO] Shutting down: Master
+[2024-03-21 05:56:46 -0400] [61906] [INFO] Starting gunicorn 21.2.0
+[2024-03-21 05:56:46 -0400] [61906] [INFO] Listening at: http://0.0.0.0:7979 (61906)
+[2024-03-21 05:56:46 -0400] [61906] [INFO] Using worker: sync
+[2024-03-21 05:56:46 -0400] [61907] [INFO] Booting worker with pid: 61907
+[2024-03-21 05:56:46 -0400] [61908] [INFO] Booting worker with pid: 61908
+[2024-03-21 05:56:46 -0400] [61909] [INFO] Booting worker with pid: 61909
+[2024-03-21 05:56:46 -0400] [61910] [INFO] Booting worker with pid: 61910
+[2024-03-21 05:56:46 -0400] [61911] [INFO] Booting worker with pid: 61911
+[2024-03-21 05:56:46 -0400] [61912] [INFO] Booting worker with pid: 61912
+[2024-03-21 05:56:46 -0400] [61913] [INFO] Booting worker with pid: 61913
+[2024-03-21 05:56:46 -0400] [61914] [INFO] Booting worker with pid: 61914
+[2024-03-21 05:56:46 -0400] [61915] [INFO] Booting worker with pid: 61915
+[2024-03-21 05:56:46 -0400] [61918] [INFO] Booting worker with pid: 61918
+[2024-03-21 05:56:46 -0400] [61919] [INFO] Booting worker with pid: 61919
+[2024-03-21 05:56:46 -0400] [61920] [INFO] Booting worker with pid: 61920
+[2024-03-21 05:56:46 -0400] [61921] [INFO] Booting worker with pid: 61921
+[2024-03-21 05:56:46 -0400] [61922] [INFO] Booting worker with pid: 61922
+[2024-03-21 05:56:47 -0400] [61923] [INFO] Booting worker with pid: 61923
+[2024-03-21 05:56:47 -0400] [61924] [INFO] Booting worker with pid: 61924
+[2024-03-21 05:56:47 -0400] [61925] [INFO] Booting worker with pid: 61925
+[2024-03-21 05:56:47 -0400] [61906] [INFO] Handling signal: int
+[2024-03-21 09:56:47 +0000] [61912] [INFO] Worker exiting (pid: 61912)
+[2024-03-21 09:56:47 +0000] [61907] [INFO] Worker exiting (pid: 61907)
+[2024-03-21 09:56:47 +0000] [61914] [INFO] Worker exiting (pid: 61914)
+[2024-03-21 09:56:47 +0000] [61925] [INFO] Worker exiting (pid: 61925)
+[2024-03-21 09:56:47 +0000] [61915] [INFO] Worker exiting (pid: 61915)
+[2024-03-21 09:56:47 +0000] [61908] [INFO] Worker exiting (pid: 61908)
+[2024-03-21 09:56:47 +0000] [61918] [INFO] Worker exiting (pid: 61918)
+[2024-03-21 09:56:47 +0000] [61913] [INFO] Worker exiting (pid: 61913)
+[2024-03-21 09:56:47 +0000] [61923] [INFO] Worker exiting (pid: 61923)
+[2024-03-21 09:56:48 +0000] [61924] [INFO] Worker exiting (pid: 61924)
+[2024-03-21 09:56:47 +0000] [61922] [INFO] Worker exiting (pid: 61922)
+[2024-03-21 09:56:47 +0000] [61921] [INFO] Worker exiting (pid: 61921)
+[2024-03-21 09:56:47 +0000] [61920] [INFO] Worker exiting (pid: 61920)
+[2024-03-21 09:56:47 +0000] [61919] [INFO] Worker exiting (pid: 61919)
+[2024-03-21 09:56:48 +0000] [61909] [INFO] Worker exiting (pid: 61909)
+[2024-03-21 09:56:47 +0000] [61910] [INFO] Worker exiting (pid: 61910)
+[2024-03-21 09:56:47 +0000] [61911] [INFO] Worker exiting (pid: 61911)
+[2024-03-21 05:56:48 -0400] [61906] [INFO] Shutting down: Master
+[2024-03-21 05:56:55 -0400] [61968] [INFO] Starting gunicorn 21.2.0
+[2024-03-21 05:56:55 -0400] [61968] [INFO] Listening at: http://0.0.0.0:7979 (61968)
+[2024-03-21 05:56:55 -0400] [61968] [INFO] Using worker: sync
+[2024-03-21 05:56:55 -0400] [61969] [INFO] Booting worker with pid: 61969
+[2024-03-21 05:56:56 -0400] [61970] [INFO] Booting worker with pid: 61970
+[2024-03-21 05:56:56 -0400] [61971] [INFO] Booting worker with pid: 61971
+[2024-03-21 05:56:56 -0400] [61972] [INFO] Booting worker with pid: 61972
+[2024-03-21 05:56:56 -0400] [61973] [INFO] Booting worker with pid: 61973
+[2024-03-21 05:56:56 -0400] [61974] [INFO] Booting worker with pid: 61974
+[2024-03-21 05:56:56 -0400] [61975] [INFO] Booting worker with pid: 61975
+[2024-03-21 05:56:56 -0400] [61977] [INFO] Booting worker with pid: 61977
+[2024-03-21 05:56:56 -0400] [61979] [INFO] Booting worker with pid: 61979
+[2024-03-21 05:56:56 -0400] [61980] [INFO] Booting worker with pid: 61980
+[2024-03-21 05:56:56 -0400] [61981] [INFO] Booting worker with pid: 61981
+[2024-03-21 05:56:56 -0400] [61982] [INFO] Booting worker with pid: 61982
+[2024-03-21 05:56:56 -0400] [61983] [INFO] Booting worker with pid: 61983
+[2024-03-21 05:56:56 -0400] [61984] [INFO] Booting worker with pid: 61984
+[2024-03-21 05:56:56 -0400] [61985] [INFO] Booting worker with pid: 61985
+[2024-03-21 05:56:56 -0400] [61986] [INFO] Booting worker with pid: 61986
+[2024-03-21 05:56:57 -0400] [61987] [INFO] Booting worker with pid: 61987
+[2024-03-21 06:01:02 -0400] [61968] [CRITICAL] WORKER TIMEOUT (pid:61987)
+[2024-03-21 10:01:02 +0000] [61987] [INFO] Worker exiting (pid: 61987)
+[2024-03-21 06:01:02 -0400] [61968] [ERROR] Worker (pid:61987) exited with code 1
+[2024-03-21 06:01:02 -0400] [61968] [ERROR] Worker (pid:61987) exited with code 1.
+[2024-03-21 06:01:02 -0400] [62017] [INFO] Booting worker with pid: 62017
+[2024-03-21 06:01:05 -0400] [61968] [CRITICAL] WORKER TIMEOUT (pid:61977)
+[2024-03-21 06:01:05 -0400] [61968] [CRITICAL] WORKER TIMEOUT (pid:61980)
+[2024-03-21 10:01:05 +0000] [61980] [INFO] Worker exiting (pid: 61980)
+[2024-03-21 10:01:05 +0000] [61977] [INFO] Worker exiting (pid: 61977)
+[2024-03-21 06:01:05 -0400] [61968] [ERROR] Worker (pid:61980) exited with code 1
+[2024-03-21 06:01:05 -0400] [61968] [ERROR] Worker (pid:61980) exited with code 1.
+[2024-03-21 06:01:05 -0400] [62019] [INFO] Booting worker with pid: 62019
+[2024-03-21 06:01:05 -0400] [61968] [ERROR] Worker (pid:61977) exited with code 1
+[2024-03-21 06:01:05 -0400] [61968] [ERROR] Worker (pid:61977) exited with code 1.
+[2024-03-21 06:01:05 -0400] [62020] [INFO] Booting worker with pid: 62020
+[2024-03-21 06:01:08 -0400] [61968] [CRITICAL] WORKER TIMEOUT (pid:61970)
+[2024-03-21 10:01:08 +0000] [61970] [INFO] Worker exiting (pid: 61970)
+[2024-03-21 06:01:08 -0400] [61968] [ERROR] Worker (pid:61970) exited with code 1
+[2024-03-21 06:01:08 -0400] [61968] [ERROR] Worker (pid:61970) exited with code 1.
+[2024-03-21 06:01:08 -0400] [62024] [INFO] Booting worker with pid: 62024
+[2024-03-21 06:11:01 -0400] [61968] [INFO] Handling signal: int
+[2024-03-21 10:11:01 +0000] [61975] [INFO] Worker exiting (pid: 61975)
+[2024-03-21 10:11:01 +0000] [61969] [INFO] Worker exiting (pid: 61969)
+[2024-03-21 10:11:01 +0000] [62017] [INFO] Worker exiting (pid: 62017)
+[2024-03-21 10:11:01 +0000] [61972] [INFO] Worker exiting (pid: 61972)
+[2024-03-21 10:11:01 +0000] [61973] [INFO] Worker exiting (pid: 61973)
+[2024-03-21 10:11:01 +0000] [61979] [INFO] Worker exiting (pid: 61979)
+[2024-03-21 10:11:01 +0000] [61983] [INFO] Worker exiting (pid: 61983)
+[2024-03-21 10:11:01 +0000] [61984] [INFO] Worker exiting (pid: 61984)
+[2024-03-21 10:11:01 +0000] [61981] [INFO] Worker exiting (pid: 61981)
+[2024-03-21 10:11:01 +0000] [61986] [INFO] Worker exiting (pid: 61986)
+[2024-03-21 10:11:01 +0000] [62019] [INFO] Worker exiting (pid: 62019)
+[2024-03-21 10:11:01 +0000] [61985] [INFO] Worker exiting (pid: 61985)
+[2024-03-21 10:11:01 +0000] [61982] [INFO] Worker exiting (pid: 61982)
+[2024-03-21 10:11:01 +0000] [61974] [INFO] Worker exiting (pid: 61974)
+[2024-03-21 10:11:01 +0000] [62024] [INFO] Worker exiting (pid: 62024)
+[2024-03-21 10:11:01 +0000] [62020] [INFO] Worker exiting (pid: 62020)
+[2024-03-21 10:11:01 +0000] [61971] [INFO] Worker exiting (pid: 61971)
+[2024-03-21 06:11:02 -0400] [61968] [INFO] Shutting down: Master
+[2024-03-21 11:34:45 -0400] [62253] [INFO] Starting gunicorn 21.2.0
+[2024-03-21 11:34:45 -0400] [62253] [INFO] Listening at: http://0.0.0.0:7979 (62253)
+[2024-03-21 11:34:45 -0400] [62253] [INFO] Using worker: sync
+[2024-03-21 11:34:45 -0400] [62254] [INFO] Booting worker with pid: 62254
+[2024-03-21 11:34:45 -0400] [62255] [INFO] Booting worker with pid: 62255
+[2024-03-21 11:34:45 -0400] [62256] [INFO] Booting worker with pid: 62256
+[2024-03-21 11:34:45 -0400] [62257] [INFO] Booting worker with pid: 62257
+[2024-03-21 11:34:45 -0400] [62258] [INFO] Booting worker with pid: 62258
+[2024-03-21 11:34:45 -0400] [62259] [INFO] Booting worker with pid: 62259
+[2024-03-21 11:34:45 -0400] [62262] [INFO] Booting worker with pid: 62262
+[2024-03-21 11:34:45 -0400] [62263] [INFO] Booting worker with pid: 62263
+[2024-03-21 11:34:45 -0400] [62264] [INFO] Booting worker with pid: 62264
+[2024-03-21 11:34:45 -0400] [62265] [INFO] Booting worker with pid: 62265
+[2024-03-21 11:34:45 -0400] [62266] [INFO] Booting worker with pid: 62266
+[2024-03-21 11:34:45 -0400] [62267] [INFO] Booting worker with pid: 62267
+[2024-03-21 11:34:45 -0400] [62268] [INFO] Booting worker with pid: 62268
+[2024-03-21 11:34:45 -0400] [62269] [INFO] Booting worker with pid: 62269
+[2024-03-21 11:34:46 -0400] [62270] [INFO] Booting worker with pid: 62270
+[2024-03-21 11:34:46 -0400] [62271] [INFO] Booting worker with pid: 62271
+[2024-03-21 11:34:46 -0400] [62272] [INFO] Booting worker with pid: 62272
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62254)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62255)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62256)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62257)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62258)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62259)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62262)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62263)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62264)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62265)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62266)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62267)
+[2024-03-21 15:43:22 +0000] [62256] [INFO] Worker exiting (pid: 62256)
+[2024-03-21 15:43:22 +0000] [62254] [INFO] Worker exiting (pid: 62254)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62268)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62269)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62270)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62271)
+[2024-03-21 11:43:22 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62272)
+[2024-03-21 15:43:22 +0000] [62268] [INFO] Worker exiting (pid: 62268)
+[2024-03-21 15:43:22 +0000] [62267] [INFO] Worker exiting (pid: 62267)
+[2024-03-21 15:43:22 +0000] [62258] [INFO] Worker exiting (pid: 62258)
+[2024-03-21 15:43:22 +0000] [62257] [INFO] Worker exiting (pid: 62257)
+[2024-03-21 15:43:22 +0000] [62264] [INFO] Worker exiting (pid: 62264)
+[2024-03-21 15:43:22 +0000] [62255] [INFO] Worker exiting (pid: 62255)
+[2024-03-21 15:43:22 +0000] [62270] [INFO] Worker exiting (pid: 62270)
+[2024-03-21 15:43:22 +0000] [62269] [INFO] Worker exiting (pid: 62269)
+[2024-03-21 15:43:22 +0000] [62259] [INFO] Worker exiting (pid: 62259)
+[2024-03-21 15:43:22 +0000] [62265] [INFO] Worker exiting (pid: 62265)
+[2024-03-21 15:43:22 +0000] [62263] [INFO] Worker exiting (pid: 62263)
+[2024-03-21 15:43:22 +0000] [62271] [INFO] Worker exiting (pid: 62271)
+[2024-03-21 15:43:23 +0000] [62262] [INFO] Worker exiting (pid: 62262)
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62267) exited with code 1
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62267) exited with code 1.
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62255) exited with code 1
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62255) exited with code 1.
+[2024-03-21 11:43:23 -0400] [62363] [INFO] Booting worker with pid: 62363
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62269) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62271) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62262) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62266) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62258) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62257) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62256) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62254) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62259) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62263) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62272) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62264) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62265) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62268) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62253] [ERROR] Worker (pid:62270) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 11:43:23 -0400] [62364] [INFO] Booting worker with pid: 62364
+[2024-03-21 11:43:23 -0400] [62365] [INFO] Booting worker with pid: 62365
+[2024-03-21 11:43:23 -0400] [62366] [INFO] Booting worker with pid: 62366
+[2024-03-21 11:43:23 -0400] [62367] [INFO] Booting worker with pid: 62367
+[2024-03-21 11:43:23 -0400] [62368] [INFO] Booting worker with pid: 62368
+[2024-03-21 11:43:23 -0400] [62369] [INFO] Booting worker with pid: 62369
+[2024-03-21 11:43:23 -0400] [62370] [INFO] Booting worker with pid: 62370
+[2024-03-21 11:43:23 -0400] [62371] [INFO] Booting worker with pid: 62371
+[2024-03-21 11:43:23 -0400] [62372] [INFO] Booting worker with pid: 62372
+[2024-03-21 11:43:23 -0400] [62373] [INFO] Booting worker with pid: 62373
+[2024-03-21 11:43:23 -0400] [62374] [INFO] Booting worker with pid: 62374
+[2024-03-21 11:43:23 -0400] [62375] [INFO] Booting worker with pid: 62375
+[2024-03-21 11:43:23 -0400] [62376] [INFO] Booting worker with pid: 62376
+[2024-03-21 11:43:23 -0400] [62377] [INFO] Booting worker with pid: 62377
+[2024-03-21 11:43:23 -0400] [62378] [INFO] Booting worker with pid: 62378
+[2024-03-21 11:43:23 -0400] [62379] [INFO] Booting worker with pid: 62379
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62363)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62365)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62366)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62367)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62368)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62369)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62370)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62372)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62374)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62375)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62376)
+[2024-03-21 16:17:40 +0000] [62368] [INFO] Worker exiting (pid: 62368)
+[2024-03-21 16:17:40 +0000] [62370] [INFO] Worker exiting (pid: 62370)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62377)
+[2024-03-21 16:17:40 +0000] [62363] [INFO] Worker exiting (pid: 62363)
+[2024-03-21 12:17:40 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62379)
+[2024-03-21 16:17:40 +0000] [62366] [INFO] Worker exiting (pid: 62366)
+[2024-03-21 16:17:40 +0000] [62379] [INFO] Worker exiting (pid: 62379)
+[2024-03-21 16:17:40 +0000] [62365] [INFO] Worker exiting (pid: 62365)
+[2024-03-21 16:17:40 +0000] [62377] [INFO] Worker exiting (pid: 62377)
+[2024-03-21 16:17:40 +0000] [62367] [INFO] Worker exiting (pid: 62367)
+[2024-03-21 16:17:40 +0000] [62369] [INFO] Worker exiting (pid: 62369)
+[2024-03-21 16:17:40 +0000] [62375] [INFO] Worker exiting (pid: 62375)
+[2024-03-21 16:17:40 +0000] [62376] [INFO] Worker exiting (pid: 62376)
+[2024-03-21 16:17:40 +0000] [62374] [INFO] Worker exiting (pid: 62374)
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62365) exited with code 1
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62365) exited with code 1.
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62379) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62375) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62374) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62370) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62368) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62366) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62376) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62377) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62510] [INFO] Booting worker with pid: 62510
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62372) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62369) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62367) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62253] [ERROR] Worker (pid:62363) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:17:40 -0400] [62511] [INFO] Booting worker with pid: 62511
+[2024-03-21 12:17:40 -0400] [62512] [INFO] Booting worker with pid: 62512
+[2024-03-21 12:17:40 -0400] [62513] [INFO] Booting worker with pid: 62513
+[2024-03-21 12:17:40 -0400] [62514] [INFO] Booting worker with pid: 62514
+[2024-03-21 12:17:40 -0400] [62516] [INFO] Booting worker with pid: 62516
+[2024-03-21 12:17:40 -0400] [62517] [INFO] Booting worker with pid: 62517
+[2024-03-21 12:17:40 -0400] [62518] [INFO] Booting worker with pid: 62518
+[2024-03-21 12:17:41 -0400] [62519] [INFO] Booting worker with pid: 62519
+[2024-03-21 12:17:41 -0400] [62520] [INFO] Booting worker with pid: 62520
+[2024-03-21 12:17:41 -0400] [62521] [INFO] Booting worker with pid: 62521
+[2024-03-21 12:17:41 -0400] [62522] [INFO] Booting worker with pid: 62522
+[2024-03-21 12:17:41 -0400] [62523] [INFO] Booting worker with pid: 62523
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62364)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62371)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62373)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62378)
+[2024-03-21 16:33:41 +0000] [62364] [INFO] Worker exiting (pid: 62364)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62510)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62511)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62512)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62513)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62514)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62516)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62517)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62518)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62519)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62520)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62521)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62522)
+[2024-03-21 12:33:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62523)
+[2024-03-21 16:33:41 +0000] [62510] [INFO] Worker exiting (pid: 62510)
+[2024-03-21 16:33:41 +0000] [62517] [INFO] Worker exiting (pid: 62517)
+[2024-03-21 16:33:41 +0000] [62518] [INFO] Worker exiting (pid: 62518)
+[2024-03-21 16:33:41 +0000] [62523] [INFO] Worker exiting (pid: 62523)
+[2024-03-21 16:33:42 +0000] [62522] [INFO] Worker exiting (pid: 62522)
+[2024-03-21 16:33:42 +0000] [62514] [INFO] Worker exiting (pid: 62514)
+[2024-03-21 16:33:42 +0000] [62511] [INFO] Worker exiting (pid: 62511)
+[2024-03-21 16:33:42 +0000] [62519] [INFO] Worker exiting (pid: 62519)
+[2024-03-21 16:33:42 +0000] [62521] [INFO] Worker exiting (pid: 62521)
+[2024-03-21 16:33:42 +0000] [62520] [INFO] Worker exiting (pid: 62520)
+[2024-03-21 16:33:42 +0000] [62513] [INFO] Worker exiting (pid: 62513)
+[2024-03-21 16:33:42 +0000] [62512] [INFO] Worker exiting (pid: 62512)
+[2024-03-21 16:33:42 +0000] [62516] [INFO] Worker exiting (pid: 62516)
+[2024-03-21 16:33:42 +0000] [62371] [INFO] Worker exiting (pid: 62371)
+[2024-03-21 16:33:42 +0000] [62378] [INFO] Worker exiting (pid: 62378)
+[2024-03-21 16:33:42 +0000] [62373] [INFO] Worker exiting (pid: 62373)
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62371) exited with code 1
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62371) exited with code 1.
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62519) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62527] [INFO] Booting worker with pid: 62527
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62518) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62513) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62512) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62510) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62520) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62523) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62522) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62521) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62511) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62516) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62517) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62514) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62373) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62378) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62253] [ERROR] Worker (pid:62364) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:33:42 -0400] [62528] [INFO] Booting worker with pid: 62528
+[2024-03-21 12:33:42 -0400] [62529] [INFO] Booting worker with pid: 62529
+[2024-03-21 12:33:42 -0400] [62530] [INFO] Booting worker with pid: 62530
+[2024-03-21 12:33:42 -0400] [62531] [INFO] Booting worker with pid: 62531
+[2024-03-21 12:33:42 -0400] [62532] [INFO] Booting worker with pid: 62532
+[2024-03-21 12:33:42 -0400] [62533] [INFO] Booting worker with pid: 62533
+[2024-03-21 12:33:42 -0400] [62534] [INFO] Booting worker with pid: 62534
+[2024-03-21 12:33:42 -0400] [62535] [INFO] Booting worker with pid: 62535
+[2024-03-21 12:33:42 -0400] [62536] [INFO] Booting worker with pid: 62536
+[2024-03-21 12:33:42 -0400] [62537] [INFO] Booting worker with pid: 62537
+[2024-03-21 12:33:42 -0400] [62538] [INFO] Booting worker with pid: 62538
+[2024-03-21 12:33:42 -0400] [62539] [INFO] Booting worker with pid: 62539
+[2024-03-21 12:33:42 -0400] [62540] [INFO] Booting worker with pid: 62540
+[2024-03-21 12:33:42 -0400] [62541] [INFO] Booting worker with pid: 62541
+[2024-03-21 12:33:42 -0400] [62542] [INFO] Booting worker with pid: 62542
+[2024-03-21 12:33:42 -0400] [62543] [INFO] Booting worker with pid: 62543
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62527)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62528)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62529)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62530)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62531)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62532)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62533)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62534)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62535)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62536)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62537)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62538)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62539)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62540)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62541)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62542)
+[2024-03-21 12:50:34 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62543)
+[2024-03-21 16:50:34 +0000] [62531] [INFO] Worker exiting (pid: 62531)
+[2024-03-21 16:50:34 +0000] [62541] [INFO] Worker exiting (pid: 62541)
+[2024-03-21 16:50:34 +0000] [62537] [INFO] Worker exiting (pid: 62537)
+[2024-03-21 16:50:34 +0000] [62529] [INFO] Worker exiting (pid: 62529)
+[2024-03-21 16:50:34 +0000] [62540] [INFO] Worker exiting (pid: 62540)
+[2024-03-21 16:50:34 +0000] [62535] [INFO] Worker exiting (pid: 62535)
+[2024-03-21 16:50:34 +0000] [62530] [INFO] Worker exiting (pid: 62530)
+[2024-03-21 16:50:34 +0000] [62528] [INFO] Worker exiting (pid: 62528)
+[2024-03-21 16:50:34 +0000] [62536] [INFO] Worker exiting (pid: 62536)
+[2024-03-21 16:50:34 +0000] [62534] [INFO] Worker exiting (pid: 62534)
+[2024-03-21 16:50:34 +0000] [62533] [INFO] Worker exiting (pid: 62533)
+[2024-03-21 16:50:34 +0000] [62527] [INFO] Worker exiting (pid: 62527)
+[2024-03-21 16:50:34 +0000] [62538] [INFO] Worker exiting (pid: 62538)
+[2024-03-21 16:50:34 +0000] [62539] [INFO] Worker exiting (pid: 62539)
+[2024-03-21 16:50:34 +0000] [62532] [INFO] Worker exiting (pid: 62532)
+[2024-03-21 16:50:34 +0000] [62543] [INFO] Worker exiting (pid: 62543)
+[2024-03-21 16:50:34 +0000] [62542] [INFO] Worker exiting (pid: 62542)
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62541) exited with code 1
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62541) exited with code 1.
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62528) exited with code 1
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62528) exited with code 1.
+[2024-03-21 12:50:34 -0400] [62547] [INFO] Booting worker with pid: 62547
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62536) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62527) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62538) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62540) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62529) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62530) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62533) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62543) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62531) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62542) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62535) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62532) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62539) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62537) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62253] [ERROR] Worker (pid:62534) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 12:50:34 -0400] [62548] [INFO] Booting worker with pid: 62548
+[2024-03-21 12:50:34 -0400] [62549] [INFO] Booting worker with pid: 62549
+[2024-03-21 12:50:34 -0400] [62550] [INFO] Booting worker with pid: 62550
+[2024-03-21 12:50:34 -0400] [62551] [INFO] Booting worker with pid: 62551
+[2024-03-21 12:50:34 -0400] [62552] [INFO] Booting worker with pid: 62552
+[2024-03-21 12:50:34 -0400] [62553] [INFO] Booting worker with pid: 62553
+[2024-03-21 12:50:34 -0400] [62554] [INFO] Booting worker with pid: 62554
+[2024-03-21 12:50:35 -0400] [62555] [INFO] Booting worker with pid: 62555
+[2024-03-21 12:50:35 -0400] [62556] [INFO] Booting worker with pid: 62556
+[2024-03-21 12:50:35 -0400] [62557] [INFO] Booting worker with pid: 62557
+[2024-03-21 12:50:35 -0400] [62558] [INFO] Booting worker with pid: 62558
+[2024-03-21 12:50:35 -0400] [62559] [INFO] Booting worker with pid: 62559
+[2024-03-21 12:50:35 -0400] [62560] [INFO] Booting worker with pid: 62560
+[2024-03-21 12:50:35 -0400] [62561] [INFO] Booting worker with pid: 62561
+[2024-03-21 12:50:35 -0400] [62562] [INFO] Booting worker with pid: 62562
+[2024-03-21 12:50:35 -0400] [62563] [INFO] Booting worker with pid: 62563
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62547)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62548)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62549)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62550)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62551)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62552)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62553)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62554)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62555)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62556)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62557)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62558)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62559)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62560)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62561)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62562)
+[2024-03-21 13:06:18 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62563)
+[2024-03-21 17:06:18 +0000] [62559] [INFO] Worker exiting (pid: 62559)
+[2024-03-21 17:06:18 +0000] [62558] [INFO] Worker exiting (pid: 62558)
+[2024-03-21 17:06:18 +0000] [62557] [INFO] Worker exiting (pid: 62557)
+[2024-03-21 17:06:18 +0000] [62562] [INFO] Worker exiting (pid: 62562)
+[2024-03-21 17:06:18 +0000] [62561] [INFO] Worker exiting (pid: 62561)
+[2024-03-21 17:06:18 +0000] [62556] [INFO] Worker exiting (pid: 62556)
+[2024-03-21 17:06:18 +0000] [62563] [INFO] Worker exiting (pid: 62563)
+[2024-03-21 17:06:18 +0000] [62548] [INFO] Worker exiting (pid: 62548)
+[2024-03-21 17:06:18 +0000] [62552] [INFO] Worker exiting (pid: 62552)
+[2024-03-21 17:06:18 +0000] [62553] [INFO] Worker exiting (pid: 62553)
+[2024-03-21 17:06:18 +0000] [62555] [INFO] Worker exiting (pid: 62555)
+[2024-03-21 17:06:18 +0000] [62554] [INFO] Worker exiting (pid: 62554)
+[2024-03-21 17:06:18 +0000] [62560] [INFO] Worker exiting (pid: 62560)
+[2024-03-21 17:06:18 +0000] [62551] [INFO] Worker exiting (pid: 62551)
+[2024-03-21 17:06:18 +0000] [62549] [INFO] Worker exiting (pid: 62549)
+[2024-03-21 17:06:18 +0000] [62550] [INFO] Worker exiting (pid: 62550)
+[2024-03-21 17:06:18 +0000] [62547] [INFO] Worker exiting (pid: 62547)
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62560) exited with code 1
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62560) exited with code 1.
+[2024-03-21 13:06:18 -0400] [62566] [INFO] Booting worker with pid: 62566
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62552) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62551) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62547) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62549) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62550) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62556) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62555) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62562) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62558) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62554) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62563) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62567] [INFO] Booting worker with pid: 62567
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62559) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62553) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62561) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62548) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62253] [ERROR] Worker (pid:62557) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:06:18 -0400] [62568] [INFO] Booting worker with pid: 62568
+[2024-03-21 13:06:18 -0400] [62569] [INFO] Booting worker with pid: 62569
+[2024-03-21 13:06:18 -0400] [62570] [INFO] Booting worker with pid: 62570
+[2024-03-21 13:06:18 -0400] [62571] [INFO] Booting worker with pid: 62571
+[2024-03-21 13:06:18 -0400] [62572] [INFO] Booting worker with pid: 62572
+[2024-03-21 13:06:18 -0400] [62573] [INFO] Booting worker with pid: 62573
+[2024-03-21 13:06:18 -0400] [62574] [INFO] Booting worker with pid: 62574
+[2024-03-21 13:06:19 -0400] [62575] [INFO] Booting worker with pid: 62575
+[2024-03-21 13:06:19 -0400] [62576] [INFO] Booting worker with pid: 62576
+[2024-03-21 13:06:19 -0400] [62577] [INFO] Booting worker with pid: 62577
+[2024-03-21 13:06:19 -0400] [62578] [INFO] Booting worker with pid: 62578
+[2024-03-21 13:06:19 -0400] [62579] [INFO] Booting worker with pid: 62579
+[2024-03-21 13:06:19 -0400] [62580] [INFO] Booting worker with pid: 62580
+[2024-03-21 13:06:19 -0400] [62581] [INFO] Booting worker with pid: 62581
+[2024-03-21 13:06:19 -0400] [62582] [INFO] Booting worker with pid: 62582
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62566)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62567)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62568)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62569)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62570)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62571)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62572)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62573)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62574)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62575)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62576)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62577)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62578)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62579)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62580)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62581)
+[2024-03-21 13:13:49 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62582)
+[2024-03-21 17:13:49 +0000] [62575] [INFO] Worker exiting (pid: 62575)
+[2024-03-21 17:13:49 +0000] [62580] [INFO] Worker exiting (pid: 62580)
+[2024-03-21 17:13:49 +0000] [62568] [INFO] Worker exiting (pid: 62568)
+[2024-03-21 17:13:49 +0000] [62571] [INFO] Worker exiting (pid: 62571)
+[2024-03-21 17:13:49 +0000] [62579] [INFO] Worker exiting (pid: 62579)
+[2024-03-21 17:13:49 +0000] [62566] [INFO] Worker exiting (pid: 62566)
+[2024-03-21 17:13:49 +0000] [62582] [INFO] Worker exiting (pid: 62582)
+[2024-03-21 17:13:49 +0000] [62577] [INFO] Worker exiting (pid: 62577)
+[2024-03-21 17:13:49 +0000] [62581] [INFO] Worker exiting (pid: 62581)
+[2024-03-21 17:13:49 +0000] [62567] [INFO] Worker exiting (pid: 62567)
+[2024-03-21 17:13:49 +0000] [62573] [INFO] Worker exiting (pid: 62573)
+[2024-03-21 17:13:49 +0000] [62578] [INFO] Worker exiting (pid: 62578)
+[2024-03-21 17:13:49 +0000] [62569] [INFO] Worker exiting (pid: 62569)
+[2024-03-21 17:13:49 +0000] [62574] [INFO] Worker exiting (pid: 62574)
+[2024-03-21 17:13:49 +0000] [62572] [INFO] Worker exiting (pid: 62572)
+[2024-03-21 17:13:49 +0000] [62576] [INFO] Worker exiting (pid: 62576)
+[2024-03-21 17:13:49 +0000] [62570] [INFO] Worker exiting (pid: 62570)
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62566) exited with code 1
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62566) exited with code 1.
+[2024-03-21 13:13:49 -0400] [62585] [INFO] Booting worker with pid: 62585
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62577) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62581) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62575) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62574) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62572) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62573) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62571) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62570) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62567) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62579) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62582) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62578) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62576) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62580) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62569) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62253] [ERROR] Worker (pid:62568) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:13:49 -0400] [62586] [INFO] Booting worker with pid: 62586
+[2024-03-21 13:13:50 -0400] [62587] [INFO] Booting worker with pid: 62587
+[2024-03-21 13:13:50 -0400] [62588] [INFO] Booting worker with pid: 62588
+[2024-03-21 13:13:50 -0400] [62589] [INFO] Booting worker with pid: 62589
+[2024-03-21 13:13:50 -0400] [62590] [INFO] Booting worker with pid: 62590
+[2024-03-21 13:13:50 -0400] [62591] [INFO] Booting worker with pid: 62591
+[2024-03-21 13:13:50 -0400] [62592] [INFO] Booting worker with pid: 62592
+[2024-03-21 13:13:50 -0400] [62593] [INFO] Booting worker with pid: 62593
+[2024-03-21 13:13:50 -0400] [62594] [INFO] Booting worker with pid: 62594
+[2024-03-21 13:13:50 -0400] [62595] [INFO] Booting worker with pid: 62595
+[2024-03-21 13:13:50 -0400] [62596] [INFO] Booting worker with pid: 62596
+[2024-03-21 13:13:50 -0400] [62597] [INFO] Booting worker with pid: 62597
+[2024-03-21 13:13:50 -0400] [62598] [INFO] Booting worker with pid: 62598
+[2024-03-21 13:13:50 -0400] [62599] [INFO] Booting worker with pid: 62599
+[2024-03-21 13:13:50 -0400] [62600] [INFO] Booting worker with pid: 62600
+[2024-03-21 13:13:50 -0400] [62601] [INFO] Booting worker with pid: 62601
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62585)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62586)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62587)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62588)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62589)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62590)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62591)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62592)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62593)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62594)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62595)
+[2024-03-21 17:23:41 +0000] [62590] [INFO] Worker exiting (pid: 62590)
+[2024-03-21 17:23:41 +0000] [62588] [INFO] Worker exiting (pid: 62588)
+[2024-03-21 17:23:41 +0000] [62594] [INFO] Worker exiting (pid: 62594)
+[2024-03-21 17:23:41 +0000] [62586] [INFO] Worker exiting (pid: 62586)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62596)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62597)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62599)
+[2024-03-21 17:23:41 +0000] [62591] [INFO] Worker exiting (pid: 62591)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62600)
+[2024-03-21 17:23:41 +0000] [62597] [INFO] Worker exiting (pid: 62597)
+[2024-03-21 13:23:41 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62601)
+[2024-03-21 17:23:41 +0000] [62593] [INFO] Worker exiting (pid: 62593)
+[2024-03-21 17:23:42 +0000] [62585] [INFO] Worker exiting (pid: 62585)
+[2024-03-21 17:23:42 +0000] [62601] [INFO] Worker exiting (pid: 62601)
+[2024-03-21 17:23:42 +0000] [62600] [INFO] Worker exiting (pid: 62600)
+[2024-03-21 17:23:42 +0000] [62595] [INFO] Worker exiting (pid: 62595)
+[2024-03-21 17:23:42 +0000] [62596] [INFO] Worker exiting (pid: 62596)
+[2024-03-21 17:23:42 +0000] [62587] [INFO] Worker exiting (pid: 62587)
+[2024-03-21 17:23:42 +0000] [62592] [INFO] Worker exiting (pid: 62592)
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62593) exited with code 1
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62593) exited with code 1.
+[2024-03-21 13:23:42 -0400] [62641] [INFO] Booting worker with pid: 62641
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62591) exited with code 1
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62591) exited with code 1.
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62594) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62590) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62588) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62597) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62596) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62586) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62585) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62601) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62599) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62589) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62592) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62595) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62600) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62253] [ERROR] Worker (pid:62587) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:23:42 -0400] [62642] [INFO] Booting worker with pid: 62642
+[2024-03-21 13:23:42 -0400] [62643] [INFO] Booting worker with pid: 62643
+[2024-03-21 13:23:42 -0400] [62644] [INFO] Booting worker with pid: 62644
+[2024-03-21 13:23:42 -0400] [62645] [INFO] Booting worker with pid: 62645
+[2024-03-21 13:23:42 -0400] [62646] [INFO] Booting worker with pid: 62646
+[2024-03-21 13:23:42 -0400] [62647] [INFO] Booting worker with pid: 62647
+[2024-03-21 13:23:42 -0400] [62648] [INFO] Booting worker with pid: 62648
+[2024-03-21 13:23:42 -0400] [62649] [INFO] Booting worker with pid: 62649
+[2024-03-21 13:23:42 -0400] [62651] [INFO] Booting worker with pid: 62651
+[2024-03-21 13:23:42 -0400] [62652] [INFO] Booting worker with pid: 62652
+[2024-03-21 13:23:43 -0400] [62653] [INFO] Booting worker with pid: 62653
+[2024-03-21 13:23:43 -0400] [62654] [INFO] Booting worker with pid: 62654
+[2024-03-21 13:23:43 -0400] [62655] [INFO] Booting worker with pid: 62655
+[2024-03-21 13:23:43 -0400] [62656] [INFO] Booting worker with pid: 62656
+[2024-03-21 13:23:43 -0400] [62657] [INFO] Booting worker with pid: 62657
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62641)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62642)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62643)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62645)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62646)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62647)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62648)
+[2024-03-21 17:36:01 +0000] [62646] [INFO] Worker exiting (pid: 62646)
+[2024-03-21 17:36:01 +0000] [62642] [INFO] Worker exiting (pid: 62642)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62649)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62651)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62652)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62653)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62654)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62655)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62656)
+[2024-03-21 13:36:01 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62657)
+[2024-03-21 17:36:01 +0000] [62649] [INFO] Worker exiting (pid: 62649)
+[2024-03-21 17:36:01 +0000] [62652] [INFO] Worker exiting (pid: 62652)
+[2024-03-21 17:36:01 +0000] [62657] [INFO] Worker exiting (pid: 62657)
+[2024-03-21 17:36:01 +0000] [62655] [INFO] Worker exiting (pid: 62655)
+[2024-03-21 17:36:01 +0000] [62648] [INFO] Worker exiting (pid: 62648)
+[2024-03-21 17:36:01 +0000] [62654] [INFO] Worker exiting (pid: 62654)
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62655) exited with code 1
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62655) exited with code 1.
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62652) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62649) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62646) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62642) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62648) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62657) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62654) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62645) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62647) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62678] [INFO] Booting worker with pid: 62678
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62656) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62641) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62653) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62651) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62253] [ERROR] Worker (pid:62643) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:01 -0400] [62679] [INFO] Booting worker with pid: 62679
+[2024-03-21 13:36:01 -0400] [62680] [INFO] Booting worker with pid: 62680
+[2024-03-21 13:36:01 -0400] [62681] [INFO] Booting worker with pid: 62681
+[2024-03-21 13:36:01 -0400] [62682] [INFO] Booting worker with pid: 62682
+[2024-03-21 13:36:01 -0400] [62683] [INFO] Booting worker with pid: 62683
+[2024-03-21 13:36:01 -0400] [62684] [INFO] Booting worker with pid: 62684
+[2024-03-21 13:36:01 -0400] [62685] [INFO] Booting worker with pid: 62685
+[2024-03-21 13:36:01 -0400] [62686] [INFO] Booting worker with pid: 62686
+[2024-03-21 13:36:01 -0400] [62687] [INFO] Booting worker with pid: 62687
+[2024-03-21 13:36:02 -0400] [62688] [INFO] Booting worker with pid: 62688
+[2024-03-21 13:36:02 -0400] [62689] [INFO] Booting worker with pid: 62689
+[2024-03-21 13:36:02 -0400] [62691] [INFO] Booting worker with pid: 62691
+[2024-03-21 13:36:02 -0400] [62692] [INFO] Booting worker with pid: 62692
+[2024-03-21 13:36:02 -0400] [62693] [INFO] Booting worker with pid: 62693
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62679)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62680)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62681)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62682)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62683)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62684)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62685)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62686)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62687)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62688)
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62691)
+[2024-03-21 17:36:32 +0000] [62687] [INFO] Worker exiting (pid: 62687)
+[2024-03-21 17:36:32 +0000] [62679] [INFO] Worker exiting (pid: 62679)
+[2024-03-21 17:36:32 +0000] [62684] [INFO] Worker exiting (pid: 62684)
+[2024-03-21 17:36:32 +0000] [62685] [INFO] Worker exiting (pid: 62685)
+[2024-03-21 17:36:32 +0000] [62680] [INFO] Worker exiting (pid: 62680)
+[2024-03-21 17:36:32 +0000] [62682] [INFO] Worker exiting (pid: 62682)
+[2024-03-21 17:36:32 +0000] [62681] [INFO] Worker exiting (pid: 62681)
+[2024-03-21 17:36:32 +0000] [62683] [INFO] Worker exiting (pid: 62683)
+[2024-03-21 17:36:32 +0000] [62688] [INFO] Worker exiting (pid: 62688)
+[2024-03-21 17:36:32 +0000] [62686] [INFO] Worker exiting (pid: 62686)
+[2024-03-21 17:36:32 +0000] [62691] [INFO] Worker exiting (pid: 62691)
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62680) exited with code 1
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62680) exited with code 1.
+[2024-03-21 13:36:32 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62689)
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62682) exited with code 1
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62682) exited with code 1.
+[2024-03-21 13:36:32 -0400] [62721] [INFO] Booting worker with pid: 62721
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62687) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62685) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62681) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62684) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62679) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62691) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62686) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62688) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62683) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 17:36:32 +0000] [62689] [INFO] Worker exiting (pid: 62689)
+[2024-03-21 13:36:32 -0400] [62253] [ERROR] Worker (pid:62689) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:32 -0400] [62722] [INFO] Booting worker with pid: 62722
+[2024-03-21 13:36:32 -0400] [62723] [INFO] Booting worker with pid: 62723
+[2024-03-21 13:36:32 -0400] [62724] [INFO] Booting worker with pid: 62724
+[2024-03-21 13:36:33 -0400] [62725] [INFO] Booting worker with pid: 62725
+[2024-03-21 13:36:33 -0400] [62726] [INFO] Booting worker with pid: 62726
+[2024-03-21 13:36:33 -0400] [62727] [INFO] Booting worker with pid: 62727
+[2024-03-21 13:36:33 -0400] [62728] [INFO] Booting worker with pid: 62728
+[2024-03-21 13:36:33 -0400] [62729] [INFO] Booting worker with pid: 62729
+[2024-03-21 13:36:33 -0400] [62730] [INFO] Booting worker with pid: 62730
+[2024-03-21 13:36:33 -0400] [62731] [INFO] Booting worker with pid: 62731
+[2024-03-21 13:36:33 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62678)
+[2024-03-21 13:36:33 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62692)
+[2024-03-21 13:36:33 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62693)
+[2024-03-21 13:36:33 -0400] [62732] [INFO] Booting worker with pid: 62732
+[2024-03-21 17:36:33 +0000] [62693] [INFO] Worker exiting (pid: 62693)
+[2024-03-21 17:36:33 +0000] [62692] [INFO] Worker exiting (pid: 62692)
+[2024-03-21 17:36:33 +0000] [62678] [INFO] Worker exiting (pid: 62678)
+[2024-03-21 13:36:34 -0400] [62253] [ERROR] Worker (pid:62692) exited with code 1
+[2024-03-21 13:36:34 -0400] [62253] [ERROR] Worker (pid:62692) exited with code 1.
+[2024-03-21 13:36:34 -0400] [62733] [INFO] Booting worker with pid: 62733
+[2024-03-21 13:36:34 -0400] [62253] [ERROR] Worker (pid:62678) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:34 -0400] [62253] [ERROR] Worker (pid:62693) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:36:34 -0400] [62734] [INFO] Booting worker with pid: 62734
+[2024-03-21 13:36:34 -0400] [62735] [INFO] Booting worker with pid: 62735
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62721)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62725)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62727)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62728)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62729)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62730)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62731)
+[2024-03-21 17:37:04 +0000] [62730] [INFO] Worker exiting (pid: 62730)
+[2024-03-21 17:37:04 +0000] [62727] [INFO] Worker exiting (pid: 62727)
+[2024-03-21 17:37:04 +0000] [62721] [INFO] Worker exiting (pid: 62721)
+[2024-03-21 17:37:04 +0000] [62728] [INFO] Worker exiting (pid: 62728)
+[2024-03-21 17:37:04 +0000] [62725] [INFO] Worker exiting (pid: 62725)
+[2024-03-21 17:37:04 +0000] [62731] [INFO] Worker exiting (pid: 62731)
+[2024-03-21 17:37:04 +0000] [62729] [INFO] Worker exiting (pid: 62729)
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62728) exited with code 1
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62728) exited with code 1.
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62722)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62723)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62724)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62726)
+[2024-03-21 13:37:04 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62732)
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62730) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62721) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62771] [INFO] Booting worker with pid: 62771
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62729) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62725) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62731) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62727) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 17:37:04 +0000] [62726] [INFO] Worker exiting (pid: 62726)
+[2024-03-21 17:37:04 +0000] [62724] [INFO] Worker exiting (pid: 62724)
+[2024-03-21 17:37:04 +0000] [62732] [INFO] Worker exiting (pid: 62732)
+[2024-03-21 17:37:04 +0000] [62722] [INFO] Worker exiting (pid: 62722)
+[2024-03-21 17:37:04 +0000] [62723] [INFO] Worker exiting (pid: 62723)
+[2024-03-21 13:37:04 -0400] [62772] [INFO] Booting worker with pid: 62772
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62723) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62724) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62726) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62722) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62253] [ERROR] Worker (pid:62732) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:04 -0400] [62773] [INFO] Booting worker with pid: 62773
+[2024-03-21 13:37:04 -0400] [62774] [INFO] Booting worker with pid: 62774
+[2024-03-21 13:37:04 -0400] [62775] [INFO] Booting worker with pid: 62775
+[2024-03-21 13:37:04 -0400] [62776] [INFO] Booting worker with pid: 62776
+[2024-03-21 13:37:05 -0400] [62777] [INFO] Booting worker with pid: 62777
+[2024-03-21 13:37:05 -0400] [62778] [INFO] Booting worker with pid: 62778
+[2024-03-21 13:37:05 -0400] [62779] [INFO] Booting worker with pid: 62779
+[2024-03-21 13:37:05 -0400] [62780] [INFO] Booting worker with pid: 62780
+[2024-03-21 13:37:05 -0400] [62781] [INFO] Booting worker with pid: 62781
+[2024-03-21 13:37:05 -0400] [62782] [INFO] Booting worker with pid: 62782
+[2024-03-21 13:37:06 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62733)
+[2024-03-21 13:37:06 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62734)
+[2024-03-21 13:37:06 -0400] [62253] [CRITICAL] WORKER TIMEOUT (pid:62735)
+[2024-03-21 17:37:06 +0000] [62733] [INFO] Worker exiting (pid: 62733)
+[2024-03-21 17:37:06 +0000] [62735] [INFO] Worker exiting (pid: 62735)
+[2024-03-21 17:37:06 +0000] [62734] [INFO] Worker exiting (pid: 62734)
+[2024-03-21 13:37:06 -0400] [62253] [ERROR] Worker (pid:62735) exited with code 1
+[2024-03-21 13:37:06 -0400] [62253] [ERROR] Worker (pid:62735) exited with code 1.
+[2024-03-21 13:37:06 -0400] [62783] [INFO] Booting worker with pid: 62783
+[2024-03-21 13:37:06 -0400] [62253] [ERROR] Worker (pid:62734) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:06 -0400] [62253] [ERROR] Worker (pid:62733) was sent SIGKILL! Perhaps out of memory?
+[2024-03-21 13:37:06 -0400] [62784] [INFO] Booting worker with pid: 62784
+[2024-03-21 13:37:06 -0400] [62785] [INFO] Booting worker with pid: 62785
