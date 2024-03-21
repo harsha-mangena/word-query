@@ -11,5 +11,5 @@ class WordApiUser(HttpUser):
 
     @task
     def get_words_by_length(self):
-        length = 5  # Example length, adjust as needed
+        length = 5
         self.client.get(f"/word/length?len={length}")
