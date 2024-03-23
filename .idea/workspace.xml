@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976bf00e-9754-4063-a0e5-f2b68ca2a95f" name="Changes" comment="- fix merge">
-      <change afterPath="$PROJECT_DIR$/conf/gunicorn_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordquery/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordquery/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +29,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.word-query.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "server-setup",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/hmangina/Work/word-query",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -52,6 +52,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="wordquery.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -88,7 +89,8 @@
       <workItem from="1710789902340" duration="11871000" />
       <workItem from="1710877834289" duration="4059000" />
       <workItem from="1710959452273" duration="1359000" />
-      <workItem from="1711008448371" duration="8649000" />
+      <workItem from="1711008448371" duration="9121000" />
+      <workItem from="1711043091960" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="- fix merge">
       <option name="closed" value="true" />
