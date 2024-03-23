@@ -11,8 +11,8 @@ from .models import Word
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
 def get_random_word_api(request):
-    # if not check_rate_limit(request, 'get_random_word_api'):
-    #     return Response({"error": "Rate limit exceeded."}, status=429)
+    if not check_rate_limit(request, 'get_random_word_api'):
+        return Response({"error": "Rate limit exceeded."}, status=429)
 
     count = get_cached_word_count()
     random_index = random.randint(0, count - 1)
@@ -31,8 +31,8 @@ def get_word_for_day(request):
     """
     Get a random word for the day.
     """
-    # if not check_rate_limit(request, 'get_word_for_day'):
-    #     return Response({"error": "Rate limit exceeded."}, status=429)
+    if not check_rate_limit(request, 'get_word_for_day'):
+        return Response({"error": "Rate limit exceeded."}, status=429)
 
     word_of_the_day = cache.get('word_of_the_day')
     if not word_of_the_day:
@@ -61,8 +61,8 @@ def get_searched_words_api(request):
 @api_view(['GET'])
 @renderer_classes([JSONRenderer])
 def get_words_by_length_api(request):
-    # if not check_rate_limit(request, 'get_words_by_length_api'):
-    #     return Response({"error": "Rate limit exceeded."}, status=429)
+    if not check_rate_limit(request, 'get_words_by_length_api'):
+        return Response({"error": "Rate limit exceeded."}, status=429)
 
     length = request.GET.get('len', None)
     if length is not None:
