@@ -17,7 +17,7 @@ client = MongoClient('localhost', 27017)
 db = client['word_query']
 collection = db['word']
 
-# Path to your JSON file
+# Path to  JSON file
 PATH = '/Users/hmangina/Desktop/dictionary_converted.json'
 
 
