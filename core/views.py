@@ -1,11 +1,11 @@
 from rest_framework.decorators import api_view, renderer_classes
 from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
-import random
 from django.core.cache import cache
 from utils import get_query_set, get_word_query_set, get_cached_word_count, check_rate_limit
 from .serializer import WordSerializer
 from .models import Word
+import secrets
 
 
 @api_view(['GET'])
@@ -15,7 +15,7 @@ def get_random_word_api(request):
         return Response({"error": "Rate limit exceeded."}, status=429)
 
     count = get_cached_word_count()
-    random_index = random.randint(0, count - 1)
+    random_index = secrets.SystemRandom().randint(0, count - 1)
     random_word = get_query_set()[random_index]
 
     if not random_word:
@@ -37,7 +37,7 @@ def get_word_for_day(request):
     word_of_the_day = cache.get('word_of_the_day')
     if not word_of_the_day:
         count = get_cached_word_count()
-        random_index = random.randint(0, count - 1)
+        random_index = secrets.SystemRandom().randint(0, count - 1)
         word_of_the_day = get_query_set()[random_index]
         if word_of_the_day is None:
             return Response({"error": "Word not found"}, status=404)
